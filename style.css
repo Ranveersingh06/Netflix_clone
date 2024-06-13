@@ -1,0 +1,264 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+</style>
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(assests/images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
+    position:relative;
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.70;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: 'martel sens', sans-serif;
+    font-family: 'poppins', sans-serif;
+    height: calc(100% - 36px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 0 30px;
+}
+.hero> :nth-child(1){
+    font-family: "poppins";
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.separation{
+    height: 7px;
+    background-color: rgb(70, 68, 68);
+}
+.btn{
+    padding: 3px 12px 3px;
+    font-weight: 400;
+    color: whitesmoke;
+    background-color: rgba(248, 243, 243, 0.38);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    padding: 3px 8px 3px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-weight: 400;
+    
+
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 4px 22px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid red;
+    font-weight: 400;
+
+
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+.main input{
+    padding: 7px 6px 4px 40px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: rgba(23, 23, 23, 0.6);
+    border: 1px solid rgba(196, 186, 186, 0.5);
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.first > div:first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.first :nth-child(2){
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+}
+.secimg img{
+    width: 40vw;
+
+}
+.secimg{
+    position: relative;
+}
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 32px;
+    height: 40vh;
+    width: 29vw;
+    
+
+}
+.second{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.second > div:nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+.second :nth-child(2){
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+.secimg img{
+    width: 45vw;
+
+}
+.secimg{
+    position: relative;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.third > div:first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.third :nth-child(2){
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+}
+.secimg img{
+    width: 40vw;
+
+}
+.secimg{
+    position: relative;
+}
+.secimg video{
+    position: absolute;
+    top: 51px;
+    right: 80px;
+    height: 25vh;
+    width: 29vw
+
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.fourth > div:nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+.fourth:nth-child(2){
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+.secimg img{
+    width: 38vw;
+
+}
+.secimg{
+    position: relative;
+}    
+.faq{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 34px;
+    
+}
+.faq-box{
+    display: flex;
+    background-color: gray;
+    padding: 25px;
+    color: white;
+    font-size: 25px;
+    max-width: 40vw;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 25px;
+}
